@@ -4,12 +4,18 @@ import './styles/Card.css';
 
 class Card extends Component {
 
+    constructor(props){
+        super(props);
+
+        this.state = {}
+    }
+    
     render() {
 
         const { title, description, img, leftColor, rightColor } = this.props;
 
         return (
-            <div className="card mx-auto Fitness-Card"
+            <div className="card mx-auto Fitness-Card mb-3"
             style={{
                 backgroundImage: `url(${circlesImg}), linear-gradient(to right, ${leftColor}, ${rightColor})`
             }}>
