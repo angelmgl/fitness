@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Welcome from '../components/Welcome';
 import ExerciseList from '../components/ExerciseList';
+import LoadMore from '../components/LoadMore';
 
 class Exercises extends Component {
 
@@ -38,6 +39,7 @@ class Exercises extends Component {
             <div>
                 <Welcome username="Angel" />
                 <ExerciseList exercises={this.state.data} />
+                <LoadMore />
             </div>
         )
     }
