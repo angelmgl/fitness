@@ -1,6 +1,6 @@
 import React from 'react';
 import circlesImg from '../images/circles.png';
-import emptyImg from '../images/empty.png'
+import emptyImg from '../images/empty.png';
 import './styles/Card.css';
 
 const Card = ({ title, description, img, leftColor, rightColor }) => (

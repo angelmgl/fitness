@@ -4,7 +4,7 @@ import Loading from '../components/Loading';
 import FatalError from './Error500';
 import useFetch from '../hooks/useFetch';
 import url from './config';
-
+//ward
 const ExercisesContainer = () => {
     
     const { data, loading, error } = useFetch(`${url}/exercises`);

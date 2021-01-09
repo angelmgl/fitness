@@ -7,13 +7,12 @@ const ExerciseList = ({ exercises }) => (
             exercises.map((exercise) => {
                 return(
                     <Card 
-                        key={exercise.id}
+                        key={exercise._id}
                         {...exercise} />
                 )
             })
         }
     </div>
 )
-
 
 export default ExerciseList;
